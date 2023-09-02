@@ -59,3 +59,5 @@ Configuring Frontend
     sudo nano .env
     MONGO_URI = "mongodb+srv://<username>:<password>@travelmemory.h5dvcda.mongodb.net/"
     PORT = 80
+4. After that we need to run the below command to run the index.js file
+    node index.js --p 80
