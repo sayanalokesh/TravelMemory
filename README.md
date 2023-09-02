@@ -73,5 +73,4 @@ To check whether the application is working or not
 1. Once this is done, we need to run the below command in the frontend server/instance
     sudo npm start --port 80
 2. After that, we need to copy the IP address of the frontend server/instance and place the port no 80. Below is the command.
-    frontendIP:80
-3. 
+        frontendIP:80
