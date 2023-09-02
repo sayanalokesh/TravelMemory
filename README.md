@@ -55,8 +55,10 @@ Configuring Frontend
     "start": "PORT=80 react-scripts start",
 8. Now we have configured everything in the front end and are good to go.
     sudo npm start --port 80
+5. Need to create .env file in the backend and edit the url and paste the below
+    
 
-Configuring Frontend
+Configuring backend
 
 1. We need to clone the repo as mentioned above
 2. We need to go to the folder
@@ -66,7 +68,9 @@ Configuring Frontend
     MONGO_URI = "mongodb+srv://<username>:<password>@travelmemory.h5dvcda.mongodb.net/"
     PORT = 80
 4. After that we need to run the below command to run the index.js file
-    node index.js --p 80
+    node index.js -p 80
+
+    
 
 To check whether the application is working or not
 
