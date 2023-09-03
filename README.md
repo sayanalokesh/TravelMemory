@@ -55,7 +55,7 @@ Configuring Frontend
     "start": "PORT=80 react-scripts start",
 8. Now we have configured everything in the front end and are good to go.
     sudo npm start --port 80
-5. Need to create .env file in the backend and edit the url with backend ip:80
+9. Need to create url.js file in the backend and edit the url with backend ip:80
     export const baseUrl = "<backendIP>:80"
 
 Configuring backend
