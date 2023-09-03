@@ -55,7 +55,8 @@ Configuring Frontend
     "start": "PORT=80 react-scripts start",
 8. Now we have configured everything in the front end and are good to go.
     sudo npm start --port 80
-5. Need to create .env file in the backend and edit the url with frontend ip:80    
+5. Need to create .env file in the backend and edit the url with frontend ip:80
+    http://<frontendipaddress>:80
 
 Configuring backend
 
@@ -64,7 +65,7 @@ Configuring backend
      cd /home/ubuntu/TravelMemory/
 3. We need to create a .env file using the below command and need to put the database link to establish a connection between the backend and the database
     sudo nano .env
-    MONGO_URI = "mongodb+srv://<username>:<password>@travelmemory.h5dvcda.mongodb.net/"
+    MONGO_URI = "mongodb+srv://<username>:<password>@travelmemory.h5dvcda.mongodb.net/travelmemory"
     PORT = 80
 4. After that we need to run the below command to run the index.js file
     node index.js -p 80
