@@ -70,14 +70,21 @@ Configuring backend
 4. After that we need to run the below command to run the index.js file
     node index.js -p 80
 
-Configuring Domain Name using Cloudflare
+Configuring the backend with the Domain Name using Cloudflare
 
 1. We need to purchase a domain name from Godaddy.
-2. We need to log in to [Cloudflare](https://dash.cloudflare.com/) and need to add our domain by clicking on addsite.
-3. Once we add the domain name, we will be able to see the name servers. We need to copy the name servers and add the same to the Godaddy website under our domain/DNS/Nameservers.
+2. We need to log in to [Cloudflare](https://dash.cloudflare.com/) and add our domain by clicking on addsite.
+3. Once we add the domain name, we can see the name servers. We need to copy the name servers and add the same to the Godaddy website under our domain/DNS/Nameservers.
 4. Again go to Cloudflare - DNS - Records.
-5. Click on add records - select type as A, and enter our domain name lokeshsayana.co.in under Name and give IP address of the backend server in the IPv4 address
+5. Click on add records - select type as A, and enter our domain name lokeshsayana.co.in under Name and give the IP address of the backend server in the IPv4 address
 6. ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/cac9346e-df9a-4ede-91aa-dc56687e1c7f)
+
+Reverse Proxy
+
+1. Earlier we ran the application inport 80. We will now change the port to 3000 and run the Nginx server on port 80.
+2. for that we need to make changes in .env file as below.
+3. ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/cf8fa60d-6776-40b5-bb63-585b2bcc4e9c)
+
 
 
     
