@@ -70,6 +70,16 @@ Configuring backend
 4. After that we need to run the below command to run the index.js file
     node index.js -p 80
 
+Configuring Domain Name using Cloudflare
+
+1. We need to purchase a domain name from Godaddy.
+2. We need to log in to [Cloudflare](https://dash.cloudflare.com/) and need to add our domain by clicking on addsite.
+3. Once we add the domain name, we will be able to see the name servers. We need to copy the name servers and add the same to the Godaddy website under our domain/DNS/Nameservers.
+4. Again go to Cloudflare - DNS - Records.
+5. Click on add records - select type as A, and enter our domain name lokeshsayana.co.in under Name and give IP address of the backend server in the IPv4 address
+6. ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/cac9346e-df9a-4ede-91aa-dc56687e1c7f)
+
+
     
 
 To check whether the application is working or not
@@ -78,3 +88,4 @@ To check whether the application is working or not
     sudo npm start --port 80
 2. After that, we need to copy the IP address of the frontend server/instance and place the port no 80. Below is the command.
         frontendIP:80
+
