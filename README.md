@@ -63,7 +63,9 @@ Configuring Frontend
 
    
 5. Then you will install all the dependencies using the below command
+    ```
     npm install
+    ```
    
    ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/068615d3-5a4f-44df-8aca-38b12e7f8929)
 
