@@ -47,14 +47,17 @@ Configuring Frontend
    ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/54dcea2c-5cbd-4c29-8937-3ed1f1de2b9b)
    
     sudo apt install nodejs -y
+   
    ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/afe88175-e428-4f70-8e81-98bccbb5093f)
    
     node -v  # to check the version of node js
+   
    ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/a8cafd5f-3a18-45c3-a9f4-b6277c5207b4)
 
    
 5. Then you will install all the dependencies using the below command
     npm install
+   
    ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/068615d3-5a4f-44df-8aca-38b12e7f8929)
 
 7. After that, we need to open ls and you will find package.json and perform the below command
