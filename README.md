@@ -91,7 +91,9 @@ sudo git clone https://github.com/UnpredictablePrashant/TravelMemory.git
     sudo npm start --port 80
     ```
 11. Need to create url.js file in the backend and edit the url with backend ip:80
+   ```
     export const baseUrl = "<backendIP>:80"
+   ```
 
 Configuring backend
 
