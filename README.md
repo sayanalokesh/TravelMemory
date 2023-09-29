@@ -43,14 +43,21 @@ Configuring Frontend
 1. We need to open the EC2 instance and clone the Git repo (sudo git clone https://github.com/UnpredictablePrashant/TravelMemory.git) where the code is placed.
 2. We will go to the repo and open cd TravelMemory/
 3. Install node js v18 which is the stable version by this command
-    curl -s https://deb.nodesource.com/setup_18.x | sudo bash
+    ```
+   curl -s https://deb.nodesource.com/setup_18.x | sudo bash
+
+    ```
    ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/54dcea2c-5cbd-4c29-8937-3ed1f1de2b9b)
    
+    ```
     sudo apt install nodejs -y
+    ```
    
    ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/afe88175-e428-4f70-8e81-98bccbb5093f)
    
+    ```
     node -v  # to check the version of node js
+    ```
    
    ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/a8cafd5f-3a18-45c3-a9f4-b6277c5207b4)
 
