@@ -101,14 +101,16 @@ Configuring backend
      cd /home/ubuntu/TravelMemory/
    ```
 4. We need to create a .env file using the below command and need to put the database link to establish a connection between the backend and the database
-    ```
+
+   ```
     sudo nano .env
     MONGO_URI="mongodb+srv://<username>:<password>@travelmemory.h5dvcda.mongodb.net/travelmemory"
     PORT=3000
     ```
+   
     ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/1802a020-0c3b-4a2c-9042-f0c3130de92a)
 
-5. After that we need to run the below command to run the index.js file
+6. After that we need to run the below command to run the index.js file
     ```
     node index.js
     ```
