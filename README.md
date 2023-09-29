@@ -44,18 +44,27 @@ Configuring Frontend
 2. We will go to the repo and open cd TravelMemory/
 3. Install node js v18 which is the stable version by this command
     curl -s https://deb.nodesource.com/setup_18.x | sudo bash
+   ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/54dcea2c-5cbd-4c29-8937-3ed1f1de2b9b)
+   
     sudo apt install nodejs -y
+   ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/afe88175-e428-4f70-8e81-98bccbb5093f)
+   
     node -v  # to check the version of node js
+   ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/a8cafd5f-3a18-45c3-a9f4-b6277c5207b4)
+
+   
 5. Then you will install all the dependencies using the below command
     npm install
-6. After that, we need to open ls and you will find package.json and perform the below command
+   ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/068615d3-5a4f-44df-8aca-38b12e7f8929)
+
+7. After that, we need to open ls and you will find package.json and perform the below command
     sudo nano package.json
-7. After that find start and insert the below content
+8. After that find start and insert the below content
    scripts": {
     "start": "PORT=80 react-scripts start",
-8. Now we have configured everything in the front end and are good to go.
+9. Now we have configured everything in the front end and are good to go.
     sudo npm start --port 80
-9. Need to create url.js file in the backend and edit the url with backend ip:80
+10. Need to create url.js file in the backend and edit the url with backend ip:80
     export const baseUrl = "<backendIP>:80"
 
 Configuring backend
