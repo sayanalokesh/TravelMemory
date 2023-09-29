@@ -78,12 +78,18 @@ sudo git clone https://github.com/UnpredictablePrashant/TravelMemory.git
 
 
 8. After that, we need to open ls and you will find package.json and perform the below command
+    ```
     sudo nano package.json
+    ```
 9. After that find start and insert the below content
+   ```
    scripts": {
     "start": "PORT=80 react-scripts start",
+   ```
 10. Now we have configured everything in the front end and are good to go.
+    ```
     sudo npm start --port 80
+    ```
 11. Need to create url.js file in the backend and edit the url with backend ip:80
     export const baseUrl = "<backendIP>:80"
 
@@ -91,13 +97,21 @@ Configuring backend
 
 1. We need to clone the repo as mentioned above
 2. We need to go to the folder
+3. ```
      cd /home/ubuntu/TravelMemory/
-3. We need to create a .env file using the below command and need to put the database link to establish a connection between the backend and the database
+   ```
+4. We need to create a .env file using the below command and need to put the database link to establish a connection between the backend and the database
+    ```
     sudo nano .env
     MONGO_URI="mongodb+srv://<username>:<password>@travelmemory.h5dvcda.mongodb.net/travelmemory"
-    PORT=80
-4. After that we need to run the below command to run the index.js file
-    node index.js -p 80
+    PORT=3000
+    ```
+    ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/1802a020-0c3b-4a2c-9042-f0c3130de92a)
+
+5. After that we need to run the below command to run the index.js file
+    ```
+    node index.js
+    ```
 
 Configuring the backend with the Domain Name using Cloudflare
 
