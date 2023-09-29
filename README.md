@@ -40,9 +40,16 @@ Creating an Instance and configuring a database
 
 Configuring Frontend
 
-1. We need to open the EC2 instance and clone the Git repo (sudo git clone https://github.com/UnpredictablePrashant/TravelMemory.git) where the code is placed.
+1. We need to open the EC2 instance and clone the Git repo
+```
+sudo git clone https://github.com/UnpredictablePrashant/TravelMemory.git
+```
+![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/f2d2884f-4f1e-4c4b-8acb-05c53039cccf)
+
 2. We will go to the repo and open cd TravelMemory/
-3. Install node js v18 which is the stable version by this command
+
+
+4. Install node js v18 which is the stable version by this command
     ```
    curl -s https://deb.nodesource.com/setup_18.x | sudo bash
 
@@ -67,16 +74,17 @@ Configuring Frontend
     npm install
     ```
    
-   ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/068615d3-5a4f-44df-8aca-38b12e7f8929)
+   ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/814eeb07-8854-4f70-a090-e627e3740c29)
 
-7. After that, we need to open ls and you will find package.json and perform the below command
+
+8. After that, we need to open ls and you will find package.json and perform the below command
     sudo nano package.json
-8. After that find start and insert the below content
+9. After that find start and insert the below content
    scripts": {
     "start": "PORT=80 react-scripts start",
-9. Now we have configured everything in the front end and are good to go.
+10. Now we have configured everything in the front end and are good to go.
     sudo npm start --port 80
-10. Need to create url.js file in the backend and edit the url with backend ip:80
+11. Need to create url.js file in the backend and edit the url with backend ip:80
     export const baseUrl = "<backendIP>:80"
 
 Configuring backend
