@@ -26,7 +26,7 @@ Data format to be added:
 ```
 Steps to Deploy an application and establish a connection between Frontend, Backend, and the database.
 
-Configuring Mongo DB
+## Configuring Mongo DB
 
 1. Need to open the cloud Mongo DB website and create a new cluster. For a free account, we have the option to create one free cluster.
 2. To create a cluster, we need to click on Create and select Shared, then select Cluster Details add the name of the cluster, and click on Create a cluster.
@@ -38,7 +38,7 @@ Creating an Instance and configuring a database
 3. We have created a username and password for the connection part.
 4. Keep the copied db link and use this in the frontend application.
 
-Configuring Frontend
+## Configuring Frontend
 
 1. We need to open the EC2 instance and clone the Git repo
 ```
@@ -95,7 +95,7 @@ sudo git clone https://github.com/UnpredictablePrashant/TravelMemory.git
     export const baseUrl = "<backendIP>:80"
    ```
 
-Configuring backend
+## Configuring backend
 
 1. We need to clone the repo as mentioned above
 2. We need to go to the folder
@@ -117,7 +117,7 @@ Configuring backend
     node index.js
     ```
 
-Configuring the backend with the Domain Name using Cloudflare
+## Configuring the backend with the Domain Name using Cloudflare
 
 1. We need to purchase a domain name from Godaddy.
 2. We need to log in to [Cloudflare](https://dash.cloudflare.com/) and add our domain by clicking on addsite.
@@ -126,17 +126,15 @@ Configuring the backend with the Domain Name using Cloudflare
 5. Click on add records - select type as A, and enter our domain name lokeshsayana.co.in under Name and give the IP address of the backend server in the IPv4 address
 6. ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/cac9346e-df9a-4ede-91aa-dc56687e1c7f)
 
-Reverse Proxy
+## Reverse Proxy
 
 1. Earlier we ran the application inport 80. We will now change the port to 3000 and run the Nginx server on port 80.
-2. for that we need to make changes in .env file as below.
+2. For that we need to make changes in .env file as below.
 3. ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/cf8fa60d-6776-40b5-bb63-585b2bcc4e9c)
 
 
 
-    
-
-To check whether the application is working or not
+## To check whether the application is working or not
 
 1. Once this is done, we need to run the below command in the frontend server/instance
     sudo npm start --port 80
