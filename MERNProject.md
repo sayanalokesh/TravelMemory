@@ -141,7 +141,7 @@ server {
 
 ![Alt text](image-7.png)
 ![Alt text](image-8.png)
-![Alt text](image-9.png)
+![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/c1afb86e-6db9-49bd-b059-4c40d8efab5d)
 ![Alt text](image-39.png)
 
 
