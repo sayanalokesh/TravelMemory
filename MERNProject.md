@@ -2,6 +2,17 @@
 
 The main objective of this project is to deploy and scale a MERN (MongoDB, Express, React, Node.js) application on AWS. Here's a step-by-step guide to help you get started.
 
+### 1. [Configuring Mongo DB](#configuring-mongo-db)
+### 2. [Creating Instances](#creating-instances)
+### 3. [Installing prerequisites for backend and frontend](#installing-prerequisites-for-backend-and-frontend)
+### 4. [Configuring in Cloudflare](#configuring-in-cloudflare)
+### 5. [Configuring Backend](#configuring-backend)
+### 6. [Configuring Frontend](#configuring-frontend)
+### 7. [Scaling the Application Using Load Balancer](#scaling-the-application-using-load-balancer)
+### 8. [Creating an Image for frontend and backend](#creating-an-image-for-frontend-and-backend)
+### 9. [Configuring Target Groups](#configuring-target-groups)
+### 10. [Configuring Load Balancer](#configuring-load-balancer)
+### 11. [Testing the Load Balancer Configuration](#testing-the-load-balancer-configuration)
 ## Configuring Mongo DB
 
 1. Need to open the cloud Mongo DB website and create a new cluster. For a free account, we have the option to create one free cluster.
@@ -39,7 +50,7 @@ The main objective of this project is to deploy and scale a MERN (MongoDB, Expre
 
 
 
-## Configuring in Cloudflare.
+## Configuring in Cloudflare
 1. Since we have backend and frontend public IP addresses, we need to configure the same in Cloudflare for an additional layer of protection as well as to register our domain names to our IP addresses (frontend and backend)
 ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/74101a1d-e513-4167-a13e-95815133f8da)
 
@@ -170,7 +181,7 @@ server {
 4. Need to perform the same tasks for the backend
 5. Once the Instances are launched, for confirmation, we need to connect to the instance and check whether the TravelMemory is visible or not. If it is visible, we created an Image successfully. In the below image, we see that the image is created successfully and launched successfully.
 ![Alt text](image-15.png)
-## Configuring Target Groups and Load Balancer
+## Configuring Target Groups
 1. Click on "Load Balancing" under EC2.
 2. Click on "Target Groups" and follow the steps as shown in the screenshots.
 ![Alt text](image-16.png)

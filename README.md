@@ -1,3 +1,44 @@
+## Table of Contents
+
+1. [Creating Instances](#creating-instances)
+2. [Configuring Backend](#configuring-backend)
+   1. [Creating env File](#creating-env-file)
+   2. [Installing Nginx Reverse Proxy](#installing-nginx-reverse-proxy)
+   3. [Setting Up Reverse Proxy](#setting-up-reverse-proxy)
+   4. [Enabling Nginx Configuration](#enabling-nginx-configuration)
+   5. [Restarting Nginx](#restarting-nginx)
+3. [Configuring Frontend](#configuring-frontend)
+   1. [Installing Dependencies](#installing-dependencies)
+   2. [Cloning the Repo](#cloning-the-repo)
+   3. [Installing Dependencies](#installing-dependencies-1)
+   4. [Editing package.json File](#editing-packagejson-file)
+   5. [Starting the Server](#starting-the-server)
+   6. [Reverse Proxy for Frontend Server](#reverse-proxy-for-frontend-server)
+4. [Scaling the Application Using Load Balancer](#scaling-the-application-using-load-balancer)
+   1. [Creating an Image](#creating-an-image)
+   2. [Launching an Instance from the Image](#launching-an-instance-from-the-image)
+   3. [Launching the Instance Using AMI](#launching-the-instance-using-ami)
+   4. [Performing the Same Tasks for the Backend](#performing-the-same-tasks-for-the-backend)
+   5. [Checking the Visibility of TravelMemory](#checking-the-visibility-of-travelmemory)
+5. [Configuring Target Groups and Load Balancer](#configuring-target-groups-and-load-balancer)
+   1. [Creating Target Groups](#creating-target-groups)
+   2. [Selecting Frontend Instances](#selecting-frontend-instances)
+   3. [Including as Pending](#including-as-pending)
+   4. [Creating Target Group](#creating-target-group)
+   5. [Configuring Load Balancer Using Instances](#configuring-load-balancer-using-instances)
+   6. [Performing the Same Process for the Backend](#performing-the-same-process-for-the-backend)
+6. [Configuring Load Balancer](#configuring-load-balancer)
+   1. [Selecting Application Load Balancer](#selecting-application-load-balancer)
+   2. [Choosing at Least 2 Availability Zones](#choosing-at-least-2-availability-zones)
+   3. [Keeping Default Configuration](#keeping-default-configuration)
+   4. [Creating Load Balancer](#creating-load-balancer)
+   5. [Taking Load Balancer DNS and Configuring in Cloudflare](#taking-load-balancer-dns-and-configuring-in-cloudflare)
+7. [Testing the Load Balancer Configuration](#testing-the-load-balancer-configuration)
+   1. [Changing Backend URL in url.js](#changing-backend-url-in-urljs)
+
+Citations:
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/2184209/af62280e-70c6-45d0-bf61-666b65578b3f/MERNProject_35983144.pdf
+
 # Travel Memory
 
 `.env` file to work with the backend:
