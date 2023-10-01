@@ -1,6 +1,6 @@
-# How to Create and Scale a MERN Application on AWS
+# How to Deploy and Scale a MERN Application (Travel Memory Application) on AWS.
 
-TRhe main objective of this project is to deploy and scale a MERN (MongoDB, Express, React, Node.js) application on AWS. Here's a step-by-step guide to help you get started.
+The main objective of this project is to deploy and scale a MERN (MongoDB, Express, React, Node.js) application on AWS. Here's a step-by-step guide to help you get started.
 
 ## Configuring Mongo DB
 
