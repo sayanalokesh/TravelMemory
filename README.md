@@ -30,9 +30,9 @@ Steps to Deploy an application and establish a connection between Frontend, Back
 
 1. Need to open the cloud Mongo DB website and create a new cluster. For a free account, we have the option to create one free cluster.
 2. To create a cluster, we need to click on Create and select Shared, then select Cluster Details add the name of the cluster, and click on Create a cluster.
-3. Click on the cluster name and click on Connect. A tab will open, Click on compass, and select I have MongoDB compass installed, Copy the connection string link and paste the same link in the backend that is in the .env file.
+3. Click on the cluster name and click on Connect. A tab will open, Click on compass, and select I have MongoDB compass installed, Copy the connection string link and paste the same link in the backend that is in the .env file as shown in the backend configuration.
 
-Creating an Instance and configuring a database
+## Creating an Instance and configuring a database
 1. Create 2 instances with the same VPC, while creating an instance, we must select 2 instances so that the same security group will apply to both instances.
 2. Open the MongoDB website in the browser and create a new cluster named travelmemory.
 3. We have created a username and password for the connection part.
@@ -131,6 +131,7 @@ sudo git clone https://github.com/UnpredictablePrashant/TravelMemory.git
 1. Earlier we ran the application inport 80. We will now change the port to 3000 and run the Nginx server on port 80.
 2. For that we need to make changes in .env file as below.
 3. ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/cf8fa60d-6776-40b5-bb63-585b2bcc4e9c)
+4. 
 
 
 
