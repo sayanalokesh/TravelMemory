@@ -4,6 +4,9 @@ The main objective of this project is to deploy and scale a MERN (MongoDB, Expre
 
 ![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/60ea2e59-7e90-4788-96f4-3d12d26004cb)
 
+![image](https://github.com/sayanalokesh/TravelMemory/assets/105637305/b6c18731-fd39-456b-bfb9-b9b561434e05)
+
+
 
 ### 1. [Configuring Mongo DB](#configuring-mongo-db)
 ### 2. [Creating Instances](#creating-instances)
