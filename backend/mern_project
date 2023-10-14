@@ -1,0 +1,7 @@
+server {
+    listen 80;
+    server_name api.lokeshsayana.co.in;
+    location / {
+        proxy_pass http://13.235.234.251:3000;
+    }
+}
