@@ -2,6 +2,6 @@ server {
     listen 80;
     server_name lokeshsayana.co.in;
     location / {
-        proxy_pass http://13.235.234.251;
+        proxy_pass http://18.188.219.70;
     }
 }
