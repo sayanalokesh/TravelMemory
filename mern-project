@@ -2,6 +2,6 @@ server {
     listen 80;
     server_name lokeshsayana.co.in;
     location / {
-        proxy_pass http://3.12.109.176;  # backendEIP
+        proxy_pass http://13.127.74.191;  # backendEIP
     }
 }
